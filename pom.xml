@@ -8,7 +8,7 @@
 
 	<properties>
 		<spring.version>4.0.1.RELEASE</spring.version>
-		<java.vesrion>1.8</java.vesrion>
+		<java.version>1.8</java.version>
 	</properties>
 
 	<dependencies>
@@ -53,8 +53,8 @@
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.5.1</version>
 					<configuration>
-						<source>${java.vesrion}</source>
-          				<target>${java.vesrion}</target>
+						<source>${java.version}</source>
+          				<target>${java.version}</target>
 					</configuration>
 				</plugin>
 			</plugins>
