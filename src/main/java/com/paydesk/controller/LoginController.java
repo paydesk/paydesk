@@ -1,13 +1,12 @@
 package com.paydesk.controller;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
  
 @Controller
-public class HelloWorldController {
+public class LoginController {
 	String message = "Welcome to Spring MVC!";
  
 	@RequestMapping("/hello")
@@ -23,9 +22,7 @@ public class HelloWorldController {
 	
 	@RequestMapping("/login")
 	public String login() {
-		System.out.println("in controller");
- 
-		
+		System.out.println("in login controller");
 		return "login";
 	}
 }
