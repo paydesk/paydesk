@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
  
 @Controller
-public class HelloWorldController {
+public class LoginController {
 	String message = "Welcome to Spring MVC!";
  
 	@RequestMapping("/hello")
@@ -18,5 +18,11 @@ public class HelloWorldController {
 		mv.addObject("message", message);
 		mv.addObject("name", name);
 		return mv;
+	}
+	
+	@RequestMapping("/login")
+	public String login() {
+		System.out.println("in login controller");
+		return "login";
 	}
 }
