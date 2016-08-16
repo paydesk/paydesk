@@ -47,7 +47,7 @@
       <button>Register</button>
     </form>
   </div>
-  <div class="cta"><a href="http://andytran.me">Forgot your password?</a></div>
+  <div class="cta"><a href="#">Forgot your password?</a></div>
 </div>
 
 </body>
