@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.paydesk.data.AppUser;
+import com.paydesk.data.UserRole;
+
  
 @Controller
 public class LoginController {
@@ -41,7 +42,7 @@ public class LoginController {
 		Session session = sessionFactory.openSession();
 		session.beginTransaction();
 
-		AppUser user = new AppUser("firstuser");
+		UserRole user = new UserRole("firstuser");
 		session.save(user);
 
 		session.getTransaction().commit();
