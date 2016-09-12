@@ -8,13 +8,13 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class AppUser implements Serializable {
+public class UserRole implements Serializable {
 
-	public AppUser() {
+	public UserRole() {
 
 	};
 
-	public AppUser(String login) {
+	public UserRole(String login) {
 		this.login = login;
 
 	};

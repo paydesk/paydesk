@@ -22,7 +22,7 @@
         <property name="hibernate.hbm2ddl.auto">create-drop</property>
  
         <!-- Annotated entity classes -->
-        <mapping class="com.paydesk.data.AppUser"/>
+        <mapping class="com.paydesk.data.UserRole"/>
         
     </session-factory>
 </hibernate-configuration>
