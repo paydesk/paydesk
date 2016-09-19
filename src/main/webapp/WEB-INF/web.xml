@@ -3,7 +3,7 @@
  
  
 	<display-name>The Pay Desk</display-name>
- 
+
 	<servlet>
 		<servlet-name>dispatcher</servlet-name>
 		<servlet-class>
